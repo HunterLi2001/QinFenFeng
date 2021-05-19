@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6, 50px);
+            gap: 20px;
+        }
+
+        .container div {
+            border: 1px solid #999;
+            background-color: #eee;
+            height: 50px;
+        }
+
+        .i1 {
+            grid-area: a;
+        }
+
+        .i2 {
+            grid-area: b;
+        }
+
+        .i3 {
+            grid-area: c;
+        }
+
+        .i4 {
+            grid-area: d;
+        }
+
+        .i5 {
+            grid-area: e;
+        }
+
+        .i6 {
+            grid-area: f;
+        }
+
+        .i7 {
+            grid-area: g;
+        }
+
+        .i8 {
+            grid-area: h;
+        }
+
+        .i9 {
+            grid-area: i;
+        }
+
+        .i10 {
+            grid-area: j;
+        }
+
+        .i11 {
+            grid-area: k;
+        }
+
+        .container {
+            grid-template-areas:
+                'a a a a b b b b c c c c'
+                'd d d e e e e e e f f f'
+                'g h i i j j k k k k k k';
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                grid-template-areas:
+                    'a a a a a a b b b b b b'
+                    'c c c c c c c c c c c c'
+                    'd d d e e e e e e f f f'
+                    'g g h h i i i i i i i i'
+                    'j j j k k k . . . . . .';
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="i1"></div>
+        <div class="i2"></div>
+        <div class="i3"></div>
+        <div class="i4"></div>
+        <div class="i5"></div>
+        <div class="i6"></div>
+        <div class="i7"></div>
+        <div class="i8"></div>
+        <div class="i9"></div>
+        <div class="i10"></div>
+        <div class="i11"></div>
+    </div>
+</body>
+
+</html>
