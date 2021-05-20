@@ -1,0 +1,104 @@
+/* begin table */
+table,
+table tr td,
+table tr th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr th {
+    background: #000;
+    color: white;
+}
+
+tr:nth-child(odd) td {
+    background-color: gainsboro;
+}
+
+tr:nth-child(2) td,
+tr:nth-child(3) td,
+tr:nth-child(4) td,
+tr:nth-child(6) td:nth-child(2),
+tr:nth-child(8) td:nth-child(2),
+tr:nth-child(10) td:nth-child(2) {
+    color: red;
+}
+
+/* end table */
+/* begin input */
+input {
+    width: 150px;
+    transition: width 0.25s;
+}
+
+input:focus {
+    width: 200px;
+}
+
+/* end input */
+/* begin banner */
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 200px;
+}
+
+.banner input {
+    display: none;
+}
+
+.banner img {
+    width: 401px;
+    height: 200px;
+}
+
+.banner label {
+    position: absolute;
+    display: inline-block;
+    opacity: 0.8;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    z-index: 30;
+}
+
+.banner label:hover {
+    opacity: 1;
+}
+
+.banner .l1 {
+    margin-left: 290px;
+}
+
+.banner .l2 {
+    margin-left: 330px;
+}
+
+.banner .l3 {
+    margin-left: 370px;
+}
+
+.r1:checked~.photo .b1 {
+    position: absolute;
+    top: 0px;
+    z-index: 22;
+}
+
+.r2:checked~.photo .b2 {
+    position: absolute;
+    top: 0px;
+    z-index: 23;
+}
+
+.r3:checked~.photo .b3 {
+    position: absolute;
+    top: 0px;
+    z-index: 24;
+}
+
+/* end banner */
