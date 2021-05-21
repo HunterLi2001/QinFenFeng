@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "黑体", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+/* begin nav */
+nav {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background-color: #93d7dd;
+}
+
+nav a,
+nav p {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+nav p {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-left: -2em;
+}
+
+.nav {
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 0;
+}
+
+.nav a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+    height: 3rem;
+    color: #686868;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 3px solid #93d7dd;
+}
+
+.centerPic {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* end nav */
+
+/* begin tag */
+.tag {
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    font-size: 0;
+}
+
+.tag a {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 6rem;
+    text-decoration: none;
+}
+
+.tag a img {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+}
+
+.tag a h3 {
+    display: inline-block;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    margin-left: -1rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* end tag */
+
+/* begin fenlan */
+.fenlan {
+    width: 100%;
+    background-color: white;
+    font-size: 0;
+    margin-bottom: 1rem;
+}
+
+.fenlan a {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    width: 33.3%;
+    height: 11rem;
+    border-right: 1px solid gainsboro;
+}
+
+.fenlan #f3 {
+    border-right: none;
+}
+
+.fenlan a img {
+    position: absolute;
+    left: 50%;
+    margin-left: -37.5%;
+    width: 75%;
+    margin-top: 1rem;
+}
+
+.fenlan a h2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    margin-left: -2.5rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.fenlan a h3 {
+    display: inline-block;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    margin-left: -2.7rem;
+    color: #5e5e5e;
+    font-size: 1rem;
+}
+
+/* end fenlan */
+
+/* begin box1 */
+.box1 {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0;
+}
+
+.box1:before,
+.box1:after {
+    content: "";
+    display: table;
+}
+
+.box1:after {
+    clear: both;
+}
+
+.box1 h1 {
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.box1 .photo {
+    /* display: inline-block; */
+    float: left;
+    width: 30%;
+    margin-top: 1rem;
+}
+
+.box1 .photo img {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.box1 .button {
+    /* display: inline-block; */
+    float: left;
+    width: 70%;
+    margin-top: 0.75rem;
+    font-size: 0;
+}
+
+.box1 .button a {
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    width: 6.8rem;
+    height: 2.5rem;
+    margin: 0.5rem;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.5rem;
+}
+
+/* end box1 */
+
+/* begin box2 */
+.box2 {
+    margin-bottom: 3rem;
+}
+
+.box2 a {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-left: 0.5rem;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.box2 .t1 img,
+.box2 .t2 img {
+    float: left;
+    width: 21%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.box2 .t1 h2,
+.box2 .t2 h2 {
+    float: left;
+    box-sizing: border-box;
+    width: 76%;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 22px;
+}
+
+.box2 .t1 h4,
+.box2 .t2 h4 {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 21%;
+    margin-left: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: #cecece;
+}
+
+.box2 .t3 .photo {
+    width: 90%;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    margin-left: -45%;
+    font-size: 0;
+}
+
+.box2 .t3 .photo img {
+    float: left;
+    box-sizing: border-box;
+    width: 30%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.box2 .t3 .photo .p1 {
+    margin-left: 0;
+}
+
+.box2 .t3 h2 {
+    margin-left: 0.5rem;
+    font-size: 22px;
+}
+
+.box2 .t3 h4 {
+    margin-left: 0.5rem;
+    margin-top: 4.3rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: #cecece;
+}
+
+/* end box2 */
