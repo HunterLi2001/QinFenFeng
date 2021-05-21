@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+            align-content: space-around;
+        }
+
+        .container .d1 {
+            order: 1;
+            width: 150px;
+            height: 120px;
+            margin: 10px;
+            margin-left: 0;
+            background-color: #f00;
+        }
+
+        .container .d2 {
+            order: 2;
+            width: 150px;
+            height: 100px;
+            margin: 10px;
+            background-color: #f00;
+        }
+
+        .container .d3 {
+            order: 3;
+            width: 150px;
+            height: 40px;
+            margin: 10px;
+            background-color: #f00;
+        }
+
+        .container .d4 {
+            order: 4;
+            width: 150px;
+            height: 200px;
+            margin: 10px;
+            margin-right: 0;
+            background-color: #0f0;
+        }
+
+        @media screen and (max-width:660px) {
+            .container .d4 {
+                order: -1;
+                margin-right: 10px;
+            }
+        }
+
+        @media screen and (max-width: 640px) {
+            .container {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                /* align-content: space-around; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+        <div class="d4"></div>
+    </div>
+
+</body>
+
+</html>
