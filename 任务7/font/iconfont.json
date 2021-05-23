@@ -1,0 +1,51 @@
+{
+  "id": "2565630",
+  "name": "project",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11185785",
+      "name": "书架",
+      "font_class": "shujia",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "2718745",
+      "name": "新浪",
+      "font_class": "xinlang",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "4303877",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "8288831",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e844",
+      "unicode_decimal": 59460
+    },
+    {
+      "icon_id": "16238796",
+      "name": "12-企鹅",
+      "font_class": "12-qie",
+      "unicode": "e896",
+      "unicode_decimal": 59542
+    },
+    {
+      "icon_id": "19446213",
+      "name": "推特",
+      "font_class": "twitter",
+      "unicode": "ea90",
+      "unicode_decimal": 60048
+    }
+  ]
+}

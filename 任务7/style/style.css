@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Yahei';
+}
+
+#center {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* begin nav */
+nav {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 57px;
+    background: white;
+}
+
+nav #logo .iconfont {
+    float: left;
+    position: absolute;
+    bottom: 13px;
+    font-size: 36px;
+    margin-left: 59px;
+    /* margin-top: 15px; */
+    color: #e74f4d;
+}
+
+nav #logo .word {
+    position: absolute;
+    margin-left: 100px;
+    bottom: 20px;
+    font-family: "黑体";
+    font-size: 21px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul .first a {
+    margin-right: 68px;
+}
+
+nav ul li a {
+    display: block;
+    float: right;
+    box-sizing: border-box;
+    height: 57px;
+    padding: 17px;
+    padding-bottom: 21px;
+    color: #787b83;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #e7504d;
+    border-bottom: 3px solid #e7504d;
+}
+
+/* end nav */
+
+/* begin cental image */
+#title {
+    position: relative;
+}
+
+#title img {
+    vertical-align: bottom;
+}
+
+#title h1 {
+    position: absolute;
+    top: 230px;
+    left: 117px;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#title p {
+    position: absolute;
+    top: 310px;
+    left: 126px;
+    color: white;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+
+#title a {
+    position: absolute;
+    top: 428px;
+    left: 126px;
+    display: block;
+    width: 330px;
+    height: 64px;
+    background-color: #e74f4d;
+    color: white;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* end cental image */
+
+/* begin about 1 */
+#about1 {
+    box-sizing: border-box;
+    padding-top: 45px;
+    padding-bottom: 65px;
+    height: 250px;
+}
+
+#about1 #a1,
+#about1 #a2,
+#about1 #a3,
+#about1 #a4 {
+    width: 318px;
+    float: left;
+}
+
+#about1 div img {
+    display: block;
+    margin: 0 auto;
+}
+
+#about1 div p {
+    width: 155px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: auto;
+    /* border-left: 2px solid #999999; */
+    color: #777777;
+    font-family: "黑体";
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#about1 .line {
+    background-color: #bbb;
+    width: 2px;
+    height: 50px;
+    margin-top: 90px;
+    position: relative;
+    float: left;
+}
+
+/* end about 1 */
+
+/* begin about 2 */
+#about2 {
+    background-color: #ededed;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+#about2 span {
+    display: block;
+    text-align: center;
+    font-size: 92.4px;
+    color: #e74f4d;
+}
+
+#about2 h1 {
+    margin-top: 59px;
+    color: #a1a1a1;
+    font-family: "黑体";
+    font-size: 53.59px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* end about 2 */
+
+/* begin search */
+#search {
+    position: relative;
+}
+
+#search img {
+    vertical-align: bottom;
+}
+
+#search h3 {
+    position: absolute;
+    top: 54px;
+    width: 100%;
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+#search p {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+
+#search h6 {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#search form {
+    position: absolute;
+    top: 171px;
+    left: 126px;
+}
+
+#search form select {
+    width: 236px;
+    height: 36px;
+    color: #a8aaaa;
+    padding-left: 13px;
+    outline: none;
+    border-radius: 0;
+    border: 2px solid #bf4f48;
+}
+
+#search form input {
+    width: 235px;
+    height: 36px;
+    border: none;
+    border-radius: 0;
+    background-color: #bf4f48;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* end search */
+
+/* begin activity */
+#activity {
+    width: 100%;
+    height: 605px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    padding-top: 100px;
+}
+
+#activity .content {
+    display: flex;
+    width: 986px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#activity .content div {
+    width: 246.75px;
+    /* background-color: red; */
+}
+
+#activity .content img {
+    display: block;
+    background-color: white;
+    padding: 12px 8px;
+    margin: 0 auto;
+    /* box-shadow: black; */
+}
+
+#activity .content div h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#activity .content div h5 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#activity .content div h6 {
+    text-align: center;
+    color: #979898;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+/* end activity */
+
+/* begin newlife1 */
+#newlife1 {
+    display: flex;
+}
+
+#newlife1 .left {
+    position: relative;
+    width: 851px;
+}
+
+#newlife1 .left img {
+    vertical-align: bottom;
+}
+
+#newlife1 .left h2 {
+    position: absolute;
+    top: 134px;
+    width: 100%;
+    color: white;
+    font-size: 49.47px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#newlife1 .left h1 {
+    position: absolute;
+    top: 162px;
+    width: 100%;
+    color: white;
+    font-size: 157.79px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#newlife1 .left .p1 {
+    position: absolute;
+    top: 337px;
+    width: 100%;
+    color: white;
+    font-size: 21.91px;
+    text-align: center;
+}
+
+#newlife1 .left .p2 {
+    position: absolute;
+    top: 367px;
+    left: 355px;
+    color: white;
+    font-size: 21.91px;
+}
+
+#newlife1 #tang1 {
+    position: absolute;
+    top: 50%;
+    margin-top: -12.5px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-right-color: white;
+}
+
+#newlife1 .right {
+    width: 429px;
+}
+
+#newlife1 .right h3 {
+    margin-top: 165px;
+    font-family: "黑体";
+    font-size: 18px;
+    text-align: center;
+}
+
+#newlife1 .right h3 span {
+
+    color: #e74f4d;
+}
+
+#newlife1 .right p {
+    width: 293px;
+    margin-top: 32px;
+    margin-left: 69px;
+    color: #aaa;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 2em;
+}
+
+#newlife1 .right a {
+    display: block;
+    width: 105px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #e4666a;
+    color: #e25c60;
+    font-size: 12px;
+    line-height: 45px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#newlife1 .right .point {
+    margin-top: 24px;
+    color: #929293;
+    text-align: center;
+}
+
+/* end newlife1 */
+
+/* begin newlife2 */
+#newlife2 {
+    display: flex;
+}
+
+#newlife2 .left {
+    width: 33.3%;
+    height: 520px;
+    background-color: #e74f4d;
+}
+
+#newlife2 .left p {
+    width: 100%;
+    color: white;
+    font-family: "黑体";
+    font-size: 21px;
+    text-align: center;
+
+}
+
+#newlife2 .left .p1 {
+    margin-top: 173px;
+}
+
+#newlife2 .left a {
+    display: block;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 1px solid white;
+    color: white;
+    font-family: "黑体";
+    font-size: 21px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+#newlife2 .middle {
+    width: 33.3%;
+    height: 520px;
+    background-color: white;
+}
+
+#newlife2 .middle p {
+    width: 100%;
+    color: black;
+    font-family: "黑体";
+    font-size: 21px;
+    text-align: center;
+}
+
+#newlife2 .middle .line {
+    color: #ababab;
+}
+
+#newlife2 .middle .p1 {
+    margin-top: 173px;
+}
+
+#newlife2 .middle a {
+    display: block;
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 1px solid #e7504d;
+    color: #e7504d;
+    font-family: "黑体";
+    font-size: 21px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+#newlife2 .right {
+    position: relative;
+    width: 33.3%;
+}
+
+#newlife2 .right img {
+    vertical-align: bottom;
+}
+
+#newlife2 .right #tang2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -25px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-left-color: white;
+}
+
+/* end newlife2 */
+
+/* begin become */
+#become {
+    box-sizing: border-box;
+    padding-top: 120px;
+    width: 100%;
+    height: 749px;
+}
+
+#become .p1 {
+    width: 100%;
+    text-align: center;
+    font-family: "黑体";
+    font-size: 21px;
+}
+
+#become .line {
+    margin-top: -10px;
+    text-align: center;
+    color: #ea6563;
+}
+
+#become h6 {
+    width: 421px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 105px;
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+    font-weight: 400;
+}
+
+#become .bigBox {
+    display: flex;
+}
+
+#become .bigBox .left {
+    width: 300px;
+    height: 283px;
+    margin-left: 138px;
+    margin-right: 75px;
+}
+
+#become .bigBox .left h3 {
+    font-family: "黑体";
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+#become .bigBox .left p {
+    margin-top: 24px;
+    color: #a5a3a2;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+#become .bigBox .left a {
+    display: block;
+    text-align: right;
+    color: #a5a3a2;
+    font-family: "宋体";
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#become .bigBox .left .a1 {
+    margin-bottom: 40px;
+}
+
+#become .bigBox .left .a2 {
+    margin-bottom: 20px;
+}
+
+#become .bigBox .right {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 656px;
+    height: 283px;
+}
+
+#become .bigBox .right .first {
+    box-sizing: border-box;
+    width: 311px;
+    height: 41px;
+    padding-left: 18px;
+    margin-right: 17px;
+    margin-bottom: 13px;
+    background-color: #ededef;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 41px;
+}
+
+#become .bigBox .right .first input {
+    height: 41px;
+    border: 0px;
+    padding: 0;
+    padding-right: 18px;
+    background-color: #ededef;
+    outline: none;
+}
+
+#become .bigBox .right .first #name,
+#become .bigBox .right .first #age {
+    width: 239px;
+}
+
+#become .bigBox .right .first #phone,
+#become .bigBox .right .first #address {
+    width: 215px;
+}
+
+#become .bigBox .right .dream {
+    box-sizing: border-box;
+    width: 640px;
+    height: 121px;
+    background-color: #ededef;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 13px;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+#become .bigBox .right .dream textarea {
+    width: 600px;
+    height: 98px;
+    background-color: #ededef;
+    resize: none;
+    border: 0;
+    outline: none;
+    overflow: hidden;
+}
+
+#become .bigBox .right input {
+    width: 640px;
+    height: 41px;
+    background-color: #ededef;
+    border: none;
+    outline: none;
+    font-family: "黑体";
+    font-size: 14px;
+}
+
+/* end become */
+
+/* begin contract */
+#contract {
+    box-sizing: border-box;
+    width: 100%;
+    height: 361px;
+    padding-top: 90px;
+    background-color: #32353e;
+}
+
+#contract h3 {
+    color: white;
+    font-family: "黑体";
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#contract p {
+    width: 470px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: "宋体";
+    font-size: 12px;
+    text-align: center;
+}
+
+#contract form {
+    display: flex;
+    width: 512px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 0;
+}
+
+#contract form #email {
+    width: 431px;
+    height: 41px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 0;
+}
+
+#contract form #submit {
+    width: 80px;
+    height: 41px;
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    background-color: #6f7178;
+    color: white;
+    font-size: 15px;
+}
+
+#contract .using {
+    text-align: center;
+    margin-top: 36px;
+}
+
+#contract .using a {
+    display: inline-block;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#contract .using a span {
+    font-size: 24px;
+}
+
+/* end contract */
+
+/* begin footer */
+footer {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background-color: #2f3038;
+}
+
+footer .left {
+    position: absolute;
+    left: 25px;
+    bottom: 16px;
+    color: white;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+footer .right {
+    position: absolute;
+    right: 18px;
+    bottom: 16px;
+}
+
+footer .right a {
+    color: white;
+    font-family: "宋体";
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* end footer */
