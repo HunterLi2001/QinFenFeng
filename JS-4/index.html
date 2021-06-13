@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+    <style>
+        ul {
+            padding-left: 0;
+        }
+
+        .writeLi {
+            /* list-style: none; */
+            display: inline;
+            background-color: red;
+            height: 30px;
+            margin: 5px 5px 0 0;
+            padding: 0 15px;
+            color: white;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="input" id="input">
+        <input type="button" id="leftIn" value="左侧入">
+        <input type="button" id="rightIn" value="右侧入">
+        <input type="button" id="leftOut" value="左侧出">
+        <input type="button" id="rightOut" value="右侧出">
+    </form>
+    <ul id="output"></ul>
+</body>
+
+</html>
