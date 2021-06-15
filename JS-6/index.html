@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+    <style>
+        ul {
+            padding-left: 0;
+        }
+
+        .writeLi {
+            /* list-style: none; */
+            display: inline;
+            background-color: pink;
+            height: 30px;
+            margin: 5px 5px 0 0;
+            padding: 0 15px;
+            color: black;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        #input {
+            resize: none;
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <textarea name="input" id="input" placeholder="请输入字符并用不同符号分隔"></textarea>
+        <input type="button" id="in" value="插入">
+        <input type="button" id="search" value="查询">
+        <input type="text" name="searchInput" id="searchInput">
+    </form>
+    <ul id="output"></ul>
+</body>
+
+</html>
